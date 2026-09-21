@@ -1,0 +1,6 @@
+{
+  "name": "فروشگاه ادویه طاقچه | خرید آنلاین ادویه‌جات اصیل",
+  "description": "فروشگاه تخصصی ادویه، زعفران قائنات، چاشنی‌های معطر و ادویه‌جات ترکیبی ارگانیک با ارسال فوری و تضمین تازگی.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

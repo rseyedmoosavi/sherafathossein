@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9A3412"/>
+      <stop offset="50%" stop-color="#C2410C"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="100%" stop-color="#CA8A04"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  
+  <!-- Mortar & Spice Motif -->
+  <g transform="translate(106, 116)" filter="url(#shadow)">
+    <!-- Mortar Bowl -->
+    <path d="M40 160 C40 240, 90 270, 150 270 C210 270, 260 240, 260 160 Z" fill="#78350F" stroke="url(#goldGrad)" stroke-width="8"/>
+    <ellipse cx="150" cy="160" rx="110" ry="24" fill="#92400E" stroke="url(#goldGrad)" stroke-width="6"/>
+    <!-- Spice Mound inside mortar -->
+    <ellipse cx="150" cy="158" rx="85" ry="16" fill="#D97706"/>
+    <!-- Pestle -->
+    <path d="M190 60 L240 20 C248 14 258 18 262 26 L270 42 C274 50 270 60 262 66 L175 165 Z" fill="url(#goldGrad)"/>
+    <!-- Saffron & Spices Sparks -->
+    <path d="M110 110 Q120 70 145 90 Q125 120 110 110 Z" fill="#DC2626"/>
+    <path d="M140 100 Q160 50 175 80 Q155 110 140 100 Z" fill="#EF4444"/>
+    <path d="M90 130 Q80 90 110 105 Q95 135 90 130 Z" fill="#F59E0B"/>
+    <circle cx="150" cy="155" r="4" fill="#FEF08A"/>
+    <circle cx="130" cy="158" r="3" fill="#FEF08A"/>
+    <circle cx="170" cy="157" r="3.5" fill="#FEF08A"/>
+    <!-- Base stand -->
+    <path d="M100 270 L80 290 L220 290 L200 270 Z" fill="#78350F" stroke="url(#goldGrad)" stroke-width="4"/>
+  </g>
+</svg>
